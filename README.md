@@ -1,11 +1,13 @@
 # EmojiDetect
-EmojiDetect made by Jung and Chris
+**Developed by Jung and Chris**
 
-#Description
-Capture webcam frame to detect object and convert it to emoji: Implementing object detection through webcam input to identify objects and translate them into corresponding emojis.
+## Description
+**EmojiDetect** is an innovative project that combines advanced computer vision techniques and emoji generation. Here's what it does:
 
-Use YOLOv8 with SAM model to make segmentation masks and training data: Employing YOLOv8 combined with SAM (Spatial Attention Module) to generate segmentation masks and prepare training data for the model.
+- **Object Detection with Webcam**: The project captures frames from a webcam to detect objects. It then converts these objects into corresponding emojis, implementing real-time object detection and emoji translation.
 
-Create custom dataset and ImageNet dataset to train model with annotations: Developing a tailored dataset, alongside utilizing the ImageNet dataset, to train the model effectively, complete with necessary annotations.
+- **Segmentation using YOLOv8 and SAM**: For detailed segmentation, EmojiDetect uses YOLOv8 in combination with the Spatial Attention Module (SAM). This setup is crucial for creating precise segmentation masks and preparing robust training data.
 
-Applying motion detection to detect more various set of emojis such as waving hands: Integrating motion detection capabilities to recognize a wider array of actions, like hand waves, and translate them into appropriate emojis.
+- **Custom and ImageNet Dataset Training**: To ensure accurate and efficient training, the project involves the creation of a custom dataset. This dataset is used alongside the extensive ImageNet dataset, providing a rich source of annotations for comprehensive model training.
+
+- **Motion Detection for Diverse Emoji Responses**: A key feature of EmojiDetect is its motion detection capability. This allows the system to detect a variety of gestures, such as waving hands, and respond with suitable emojis. This adds a dynamic and interactive dimension to the emoji generation process.
