@@ -1,5 +1,5 @@
 # EmojiDetect
-**Developed by Jung and Chris**
+**Developed by Jung and Chris at UC Irvine**
 
 ## Description
 **EmojiDetect** is an innovative project that combines advanced computer vision techniques and emoji generation. Here's what it does:
